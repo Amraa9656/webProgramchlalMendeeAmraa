@@ -1,0 +1,62 @@
+[
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/PH/orange1.jpg",
+      "title": "Оранж пицца",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/zaidsan_delbeet_v2.jpg",
+      "title": "Зайдсан дэлбээт",
+      "price": "₮31,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/meat_lover_v2.jpg",
+      "title": "Маханд Дурлагсад",
+      "price": "₮28,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/super_supreme_v2.jpg",
+      "title": "Оранж пицца",
+      "price": "₮28,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/PH/BulJulh.jpg",
+      "title": "Зүрхэн дессерт пицца",
+      "price": "₮28,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/bbq_v2.jpg",
+      "title": "Пепперони",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/havaiian_v2.jpg",
+      "title": "BBQ Тахиа",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/cheesy_v2.jpg",
+      "title": "Хавайн",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/vegie_lover_v2.jpg",
+      "title": "Бяслагт",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/extreme_v2.jpg",
+      "title": "Ногоонд Дурлагсад",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/peperoni_meat_lover_v2.jpg",
+      "title": "Хүчирхэг",
+      "price": "₮26,000"
+    },
+    {
+      "img": "https://d1agbmr754fw6w.cloudfront.net/ph/pizza/cheese%2Bpeperoni.jpg",
+      "title": "Маханд Дурлагсад & Пепперони",
+      "price": "₮28,000"
+    }
+  ]

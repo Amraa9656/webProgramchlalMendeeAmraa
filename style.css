@@ -4,6 +4,7 @@
 :root {
     --main-bg-color: #507DBC;
     --main-font-color: #3d3f56;
+    --main-font-color3:#191919;
     --main-font-color2:#f9f9f9;
     --sub-bg-color: #AEEBDF;
     --sub-font-color: #73B1BC;
@@ -80,22 +81,22 @@ header {
     justify-content: space-between;
 }
 .white { 
-    background: rgb(17, 17, 17); 
+    background: #fff; 
     box-shadow: rgba(0, 0, 0, 0.28) 0px 4px 8px;
     transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out, color 250ms ease-in-out;
 }
-.white .blue { fill: var(--main-bg-color); }
-.white .black { fill: var(--main-font-color); }
+.white .blue { fill: var(--main-bg-color2); }
+.white .black { fill: var(--main-font-color2); }
 .white .navbar .hamburger i,
 .white .navbar .nav-item a,
 .white .navbar .nav-item a,
 .white .navbar .nav-item button,
-.white .navbar .sub-navbar .nav-item i { color: var(--main-bg-color); }
+.white .navbar .sub-navbar .nav-item i { color: var(--main-font-color); }
 .white .navbar .main-navbar .nav-item::after,
 .white .navbar .sub-navbar .locations::after,
 .white .navbar .main-navbar .active::after { background: var(--main-bg-color); }
 
-/* .trans { background: none; } */
+.trans { background: none; }
 .trans .blue,
 .trans .black { fill: #fff; }
 .trans .navbar .hamburger i,
@@ -229,7 +230,8 @@ header .navbar {
 footer {
     width: 100%;
     border-top: 0.5px solid #ccc;
-    background: var(--footer-bg-color);
+    background: var(--main-font-color3);
+    color:var(--main-font-color2);
     padding: 2.5rem 0 0.5rem 0;
 }
 main .slider-container
@@ -253,11 +255,16 @@ footer .main-footer-container {
 .footer-items-container .item-title {
     font-size: 1.15rem;
     font-family: var(--main-font);
+    color:#fff;
 }
 
 .footer-items-container .item {
     font-size: 1rem;
     margin: 1rem 0;
+}
+.footer-items-container .item a
+{
+    color:#fff;
 }
 
 footer .social-links {
@@ -271,11 +278,13 @@ footer .social-links a {
     margin: 1rem;
 }
 
-footer .copy-msg {
+footer .copy-msg 
+{
     font-size: 0.875rem;
     width: var(--main-width);
     margin: auto;
     text-align: center;
+    color:var(--main-font-color2)
 }
 
 @media(max-width: 768px) {
