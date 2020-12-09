@@ -10,6 +10,16 @@
 	--text-clr: #4f4f4f;
 }
 
+body{
+	background-image: url("bg-01.jpg");
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
 p {
 	color: #6c757d;
 }

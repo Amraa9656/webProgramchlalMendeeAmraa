@@ -1,5 +1,5 @@
-/* color: #000; */
-/* color-bg: #c0c0c0; */
+$color: #000;
+$color-bg: #c0c0c0;
 
 /* ---------- FONTAWESOME ---------- */
 /* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
@@ -31,7 +31,7 @@ html {
 
 body {
   background-image: url("bg-01.jpg");
-  color: color;
+  color: $color;
   font-family: 'Varela Round', sans-serif;
   line-height: 1.5;
   margin: 0;
@@ -87,7 +87,7 @@ input {
 
 #login fieldset p {
   color: #777;
-  margin-bottom: 14px;
+  margin-bottom: 25px;
 }
 
 #login fieldset p:last-child {
@@ -101,7 +101,7 @@ input {
 #login fieldset input[type="email"], #login fieldset input[type="password"] {
   background: #eee;
   color: #777;
-  padding: 4px 10px;
+  padding: 13px 15px;
   width: 100%;
 }
 
